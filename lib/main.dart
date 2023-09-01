@@ -88,7 +88,7 @@ class _ProductComparisonAppState extends State<ProductComparisonApp> {
     setState(() {
       _resultado =
           '${String.fromCharCode(65 + posicao)} com um preço de R\$${NumberFormat("#.00").format(precoLitro)} por litro.';
-      precoLitro = 99999;
+      precoLitro = 9999;
     });
   }
 
